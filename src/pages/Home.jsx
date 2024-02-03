@@ -111,7 +111,7 @@ const Home = () => {
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-10 h-10 cursor-pointer object-contain'
         />
-          <div class="p-4   text-sm text-grey font-serif">
+          <div class="p-4   text-sm text-grey-500 font-serif">
     double click + scroll to move the plane
 </div>
       </div>
