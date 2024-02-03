@@ -105,8 +105,8 @@ const Home = () => {
       </Canvas>
 
       <div className='absolute top-12 left-4'>
-      <div class=" p-4   text-sm text-blue-700 font-serif">
-    (double tap + scroll)
+      <div class=" p-4   text-sm text-grey-400 font-serif">
+    (double tap + swipe)
 </div>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
