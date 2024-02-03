@@ -104,16 +104,20 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
-       <div className='absolute top-14 left-7'>
+      <div className='absolute top-12 left-4'>
+      <div class=" p-4   text-sm text-blue-700 font-serif">
+    (double tap + scroll)
+</div>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
           alt='jukebox'
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
           className='w-10 h-10 cursor-pointer object-contain'
+          
         />
-          <div class="p-4   text-sm text-grey-500 font-serif">
-    double click + scroll to move the plane
-</div>
+  
+
+
       </div>
     </section>
   );
